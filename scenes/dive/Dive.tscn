@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://di1nuyes5uh0y"]
+
+[node name="Dive" type="Node2D" unique_id=2079896581]
+
+[node name="World" type="Node2D" parent="." unique_id=646952482]
+
+[node name="Anchor" type="Area2D" parent="." unique_id=1893113012]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Anchor" unique_id=686510755]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=2130883294]
+
+[node name="Control" type="Control" parent="CanvasLayer" unique_id=1443470015]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="LucidityLabel" type="Label" parent="CanvasLayer/Control" unique_id=1904961169]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="CollapseLabel" type="Label" parent="CanvasLayer/Control" unique_id=419548633]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="ExtractHintLabel" type="Label" parent="CanvasLayer/Control" unique_id=455422181]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0

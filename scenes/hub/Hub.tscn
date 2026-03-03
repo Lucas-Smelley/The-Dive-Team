@@ -1,0 +1,31 @@
+[gd_scene format=3 uid="uid://cbdckxlwsyb8m"]
+
+[node name="Hub" type="Node2D" unique_id=471536319]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=746267445]
+
+[node name="Control" type="Control" parent="CanvasLayer" unique_id=1026843512]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="HostButton" type="Button" parent="CanvasLayer/Control" unique_id=1712680970]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="JoinButton" type="Button" parent="CanvasLayer/Control" unique_id=1641823808]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="StartDiveButton" type="Button" parent="CanvasLayer/Control" unique_id=1824709781]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="StatusLabel" type="Label" parent="CanvasLayer/Control" unique_id=1393728450]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0

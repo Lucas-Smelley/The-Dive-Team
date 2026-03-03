@@ -1,0 +1,22 @@
+# Godot 4 import cache
+.import/
+.godot/
+
+# Export presets (contains local paths sometimes)
+export_presets.cfg
+
+# Mono / C# (if not using C#, you can remove this section)
+.mono/
+data_*/
+
+# Build/export folders
+build/
+exports/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE files (optional)
+.vscode/
+.idea/
