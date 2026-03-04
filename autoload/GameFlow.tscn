@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://c0eq30viyg172"]
+
+[ext_resource type="Script" uid="uid://dp05r6cba2l2q" path="res://autoload/GameFlow.gd" id="1_fsq4c"]
+[ext_resource type="PackedScene" uid="uid://cbdckxlwsyb8m" path="res://scenes/hub/Hub.tscn" id="2_jikf4"]
+[ext_resource type="PackedScene" uid="uid://di1nuyes5uh0y" path="res://scenes/dive/Dive.tscn" id="3_esrft"]
+
+[node name="GameFlow" type="Node2D" unique_id=1317069194]
+script = ExtResource("1_fsq4c")
+hub_scene = ExtResource("2_jikf4")
+dive_scene = ExtResource("3_esrft")

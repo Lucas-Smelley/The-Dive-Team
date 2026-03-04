@@ -1,6 +1,9 @@
 [gd_scene format=3 uid="uid://cbdckxlwsyb8m"]
 
+[ext_resource type="Script" uid="uid://8and3esfnqaf" path="res://scripts/game/hub.gd" id="1_er4vj"]
+
 [node name="Hub" type="Node2D" unique_id=471536319]
+script = ExtResource("1_er4vj")
 
 [node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=746267445]
 
@@ -22,10 +25,16 @@ offset_bottom = 8.0
 
 [node name="StartDiveButton" type="Button" parent="CanvasLayer/Control" unique_id=1824709781]
 layout_mode = 0
-offset_right = 8.0
-offset_bottom = 8.0
+offset_left = 168.0
+offset_top = 73.0
+offset_right = 213.0
+offset_bottom = 104.0
+text = "start"
 
 [node name="StatusLabel" type="Label" parent="CanvasLayer/Control" unique_id=1393728450]
 layout_mode = 0
 offset_right = 40.0
 offset_bottom = 23.0
+
+[node name="Spawn" type="Marker2D" parent="." unique_id=1459499427]
+position = Vector2(378, 184)

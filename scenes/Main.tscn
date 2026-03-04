@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://d0gfsukr3booo"]
+
+[ext_resource type="Script" uid="uid://pnh6j3gt1v67" path="res://scripts/game/main.gd" id="1_elqb8"]
+[ext_resource type="PackedScene" uid="uid://bi0ba6k2v7d8g" path="res://scenes/player/Player.tscn" id="2_rvslj"]
+
+[node name="Main" type="Node2D" unique_id=1409076663]
+script = ExtResource("1_elqb8")
+
+[node name="UIRoot" type="CanvasLayer" parent="." unique_id=1382957849]
+
+[node name="Fade" type="ColorRect" parent="UIRoot" unique_id=21570779]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Loading" type="Control" parent="UIRoot" unique_id=672889346]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="SceneRoot" type="Node2D" parent="." unique_id=703931470]
+
+[node name="ActorsRoot" type="Node2D" parent="." unique_id=144089498]
+
+[node name="Player" parent="ActorsRoot" unique_id=1633261378 instance=ExtResource("2_rvslj")]

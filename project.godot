@@ -10,7 +10,8 @@ config_version=5
 
 [application]
 
-config/name="The Dive Team temp"
+config/name="The Dive Team"
+run/main_scene="uid://d0gfsukr3booo"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
 
@@ -21,13 +22,17 @@ Inventory="*uid://b4lxtfvld4v5l"
 Net="*uid://cn8a0x7vojk4a"
 Run="*uid://c0i31oc53xwkm"
 Save="*uid://cf3fxtsyfon50"
-Session="*uid://dp05r6cba2l2q"
+GameFlow="*uid://c0eq30viyg172"
 
 [display]
 
 window/size/viewport_width=1280
 window/size/viewport_height=720
 window/stretch/mode="canvas_items"
+
+[global_group]
+
+player=""
 
 [input]
 
@@ -52,10 +57,17 @@ interact={
 ]
 }
 
+[layer_names]
+
+2d_physics/layer_1="World"
+2d_physics/layer_2="Player"
+2d_physics/layer_3="Anchor"
+
 [physics]
 
 3d/physics_engine="Jolt Physics"
 
 [rendering]
 
+textures/canvas_textures/default_texture_filter=0
 rendering_device/driver.windows="d3d12"
