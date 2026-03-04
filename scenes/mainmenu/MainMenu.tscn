@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://e7vfrt7f67w7"]
+
+[node name="MainMenu" type="Control" unique_id=544024079]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Panel" type="VBoxContainer" parent="." unique_id=1174668254]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
